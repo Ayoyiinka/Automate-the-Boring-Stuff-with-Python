@@ -18,17 +18,22 @@ banana    David   goose'''
 tableData = [['apples', 'oranges', 'cherries', 'banana'],
 ['Alice', 'Bob', 'Carol', 'David'],
 ['dogs', 'cats', 'moose', 'goose']]
-tableDataLength = []
-for i in range(len(tableData)):
-    for j in range(len(tableData[i])):
-        tableDataLength.append(len(tableData[i][j]))
 
-#print(tableDataLength)
-maxLength = max(tableDataLength)
-#print(maxLength)
-justifyWith = maxLength + 2
+def printTable(tableData):
+    tableDataLength = []
+    for i in range(len(tableData)):
+        for j in range(len(tableData[i])):
+            tableDataLength.append(len(tableData[i][j]))
 
-for i in range(len(tableData)):
-    for j in range(len(tableData[i])):
-        print(tableData[i][j].rjust(justifyWith), end = '')
-    print()
+    #print(tableDataLength)
+    maxLength = max(tableDataLength)
+    #print(maxLength)
+    justifyWith = maxLength + 2
+
+    for i in range(len(tableData)):
+        for j in range(len(tableData[i])):
+            print(tableData[i][j].rjust(justifyWith), end = '')
+        print()
+
+printTable(tableData)
+
