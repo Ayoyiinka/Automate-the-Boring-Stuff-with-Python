@@ -13,7 +13,7 @@ spamText = listToText(spam)
 print(spamText)
 
 #Character Picture Grid
-'''Say you have a list of lists where each value in the inner lists is a one-characterstring, like this(grid variable):
+'''Say you have a list of lists where each value in the inner lists is a one-characterstring, like this(grid variable):'''
 
 grid = [['.', '.', '.', '.', '.', '.'],
 ['.', 'O', 'O', '.', '.', '.'],
@@ -33,8 +33,7 @@ previous grid value, and write code that uses it to print the image below:
 .OOOOOOO.
 ..OOOOO..
 ...OOO...
-....O....
-'''
+....O....'''
 
 for i in range(len(grid[0])):
     for j in range(len(grid)):
