@@ -1,10 +1,11 @@
 ## Automate-the-Boring-Stuff-with-Python
 
 # What motivated me to start programming?
-Before I started programming, * I knew programming could enable me provide more efficient solutions *faster*.
-                              * I had imaginations I wanted to bring into reality.
-                              * I discovered the time put into carrying out tasks manually can be saved by automating the task.
-                              * I was tired of boring tasks like data entry.
+Before I started programming, 
+* I knew programming could enable me provide more efficient solutions *faster*.
+* I had imaginations I wanted to bring into reality.
+* I discovered the time put into carrying out tasks manually can be saved by automating the task.
+* I was tired of boring tasks like data entry.
 All of these was what motivated me to start programming.
 
 # Why I chose Python?
